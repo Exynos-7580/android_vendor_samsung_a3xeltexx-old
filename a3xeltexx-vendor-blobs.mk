@@ -21,6 +21,7 @@ LOCAL_PATH := vendor/samsung/a3xeltexx
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/firmware/bcm43438A1_V0051.0217.hcd:system/vendor/firmware/bcm43438A1_V0051.0217.hcd \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/bcm43438A1_V0062.0267.hcd:system/vendor/firmware/bcm43438A1_V0062.0267.hcd \
     $(LOCAL_PATH)/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     $(LOCAL_PATH)/proprietary/etc/bluetooth/iop_device_list.conf:system/etc/bluetooth/iop_device_list.conf \
     $(LOCAL_PATH)/proprietary/etc/bluetooth/av_performance.conf:system/etc/bluetooth/av_performance.conf \
